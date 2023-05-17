@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myMLApp", "myMLApp\myMLApp.csproj", "{64B0D52B-0B3A-4906-99B3-526D93E8DF77}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentModel_ConsoleApp1", "SentimentModel_ConsoleApp1\SentimentModel_ConsoleApp1.csproj", "{BD5B8927-9DD5-439B-B968-56A6B7BA9854}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentModel_WebApi1", "SentimentModel_WebApi2\SentimentModel_WebApi1.csproj", "{2F86C272-5A58-4C34-9100-8FE08A307C34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{64B0D52B-0B3A-4906-99B3-526D93E8DF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64B0D52B-0B3A-4906-99B3-526D93E8DF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64B0D52B-0B3A-4906-99B3-526D93E8DF77}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BD5B8927-9DD5-439B-B968-56A6B7BA9854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD5B8927-9DD5-439B-B968-56A6B7BA9854}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD5B8927-9DD5-439B-B968-56A6B7BA9854}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BD5B8927-9DD5-439B-B968-56A6B7BA9854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F86C272-5A58-4C34-9100-8FE08A307C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F86C272-5A58-4C34-9100-8FE08A307C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F86C272-5A58-4C34-9100-8FE08A307C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F86C272-5A58-4C34-9100-8FE08A307C34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
