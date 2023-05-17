@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "76rq7EdPz9WuWS3yjyCLAWhPZCOkZqOnEZcV0AxuuaKj1gBoC59KaDue0PrDgeYUjPzF8ch9Vgien7Yl5tINfw==",
+  "dgSpecHash": "onsmjj/mHBA8u2HIcqgt/6ReVQZF7y8pLmPPPU265J82bn/kqYAxH7UxQa0tOnsVi+t2IGEc82ir/uxAbZRBpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andre Uy\\OneDrive - Cebu Institute of Technology University\\3rdYr2ndSem\\Intel System\\MiniProj\\myMLApp\\myMLApp\\myMLApp.csproj",
+  "projectFilePath": "C:\\Users\\Andre Uy\\OneDrive - Cebu Institute of Technology University\\3rdYr2ndSem\\Intel System\\Fire_Detection_AI\\myMLApp\\myMLApp\\myMLApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andre Uy\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\Andre Uy\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

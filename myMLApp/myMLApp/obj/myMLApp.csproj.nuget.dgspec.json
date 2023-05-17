@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andre Uy\\OneDrive - Cebu Institute of Technology University\\3rdYr2ndSem\\Intel System\\MiniProj\\myMLApp\\myMLApp\\myMLApp.csproj": {}
+    "C:\\Users\\Andre Uy\\OneDrive - Cebu Institute of Technology University\\3rdYr2ndSem\\Intel System\\Fire_Detection_AI\\myMLApp\\myMLApp\\myMLApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andre Uy\\OneDrive - Cebu Institute of Technology University\\3rdYr2ndSem\\Intel System\\MiniProj\\myMLApp\\myMLApp\\myMLApp.csproj": {
+    "C:\\Users\\Andre Uy\\OneDrive - Cebu Institute of Technology University\\3rdYr2ndSem\\Intel System\\Fire_Detection_AI\\myMLApp\\myMLApp\\myMLApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andre Uy\\OneDrive - Cebu Institute of Technology University\\3rdYr2ndSem\\Intel System\\MiniProj\\myMLApp\\myMLApp\\myMLApp.csproj",
+        "projectUniqueName": "C:\\Users\\Andre Uy\\OneDrive - Cebu Institute of Technology University\\3rdYr2ndSem\\Intel System\\Fire_Detection_AI\\myMLApp\\myMLApp\\myMLApp.csproj",
         "projectName": "myMLApp",
-        "projectPath": "C:\\Users\\Andre Uy\\OneDrive - Cebu Institute of Technology University\\3rdYr2ndSem\\Intel System\\MiniProj\\myMLApp\\myMLApp\\myMLApp.csproj",
+        "projectPath": "C:\\Users\\Andre Uy\\OneDrive - Cebu Institute of Technology University\\3rdYr2ndSem\\Intel System\\Fire_Detection_AI\\myMLApp\\myMLApp\\myMLApp.csproj",
         "packagesPath": "C:\\Users\\Andre Uy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andre Uy\\OneDrive - Cebu Institute of Technology University\\3rdYr2ndSem\\Intel System\\MiniProj\\myMLApp\\myMLApp\\obj\\",
+        "outputPath": "C:\\Users\\Andre Uy\\OneDrive - Cebu Institute of Technology University\\3rdYr2ndSem\\Intel System\\Fire_Detection_AI\\myMLApp\\myMLApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andre Uy\\AppData\\Roaming\\NuGet\\NuGet.Config",

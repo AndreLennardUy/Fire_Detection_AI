@@ -4,7 +4,7 @@
   "DataSource": {
     "Type": "Folder",
     "Version": 1,
-    "FolderPath": "C:\\Users\\Andre Uy\\OneDrive - Cebu Institute of Technology University\\3rdYr2ndSem\\Intel System\\MiniProj\\dataset\\Fire-Detection"
+    "FolderPath": "C:\\Users\\Andre Uy\\OneDrive - Cebu Institute of Technology University\\3rdYr2ndSem\\Intel System\\Fire_Detection_AI\\dataset\\Fire-Detection"
   },
   "Environment": {
     "Type": "LocalCPU",
@@ -18,8 +18,8 @@
         "Version": 0,
         "Type": "Trial",
         "TrainerName": "DNN + ResNet50",
-        "Score": 0.94736842105263153,
-        "RuntimeInSeconds": 87.693000793457031
+        "Score": 0.97368421052631582,
+        "RuntimeInSeconds": 93.709999084472656
       }
     ],
     "Pipeline": {
