@@ -1,70 +1,54 @@
 # Team Wangan Fire and Smoke Detection Mini-Project with Machine Learning
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**See fire. Stop fire. Our app's accuracy will never backfire.**
 
-## Available Scripts
+### `A machine learning mini-project for use and research in effective fire protection and prevention through live image processing.`
 
-In the project directory, you can run:
+Team Wangan's web-based mini-project software is a sophisticated and advanced tool that can be used by private users and experts to ensure improved home, commercial property, and public safety with quick and reliable alerts **in case of fire**. 
 
-### `npm start`
+Our machine-learning algorithms are **constantly trained** with data analyzed and gathered from different sources and datasets to provide the **most consistent and accurate** fire recognition and detection.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `Overview and Statement`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Detection of fire and smoke in CCTV systems can significantly decrease the response time to such tragedies, saving many lives and properties.
 
-### `npm test`
+This application, which works in an Internet browser, is **designed for future research and applications in CCTV systems**, especially those in private and commercial properties.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Powered by ResNet-50`
 
-### `npm run build`
+Machine learning is an integral part of the backend systems and algorithmic processes of this mini-project. Here, the model being used here is ResNet-50.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is a classic neural network used as a backbone for many computer vision tasks. **A convolutional neural network that is 50 layers deep**, one can load a pretrained version of the neural network trained on more than a million images from the ImageNet database.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `The Power of the Convolutional Neural Network`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ResNet50 has been shown to **produce high accuracy in various computer vision tasks**, including image classification, object detection, and segmentation. Its architecture, based on residual blocks and skip connections, makes it easier to train deeper networks without encountering the vanishing gradient problem or degradation in accuracy.
 
-### `npm run eject`
+Main advantages: 
+- **High accuracy in various computer vision tasks**
+- **The ability to train deeper networks without encountering issues related to vanishing gradients or degradation in accuracy**
+- **Reduced need for heavy computing resources due to transfer learning**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ```What about conventional alarms and detectors?```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This mini-project aims explore image recognition as an alternative - it is not meant to discount the ability of conventional sensors. In a large (and open) area, multiple conventional detectors need to be spread out throughout the place.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Light (and therefore, video footage) travels faster than hot air and smoke. Cameras (depending on the quality) can cover a wider area with less devices, and they can detect fire and smoke from a longer distance.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### ```What is this ideal for?```
 
-## Learn More
+This app is ideal for gardens, cemeteries, warehouses, outdoor areas, plantations, forest areas, and similar properties.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Fire sensors have to detect a certain amount of temperature to be triggered. They are also limited by battery capacity.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This means that cameras can detect fire and smoke faster than sensors can detect hot air and smoke. Every second counts. The detection time difference may only be in seconds, but quick responses matters. 
 
-### Code Splitting
+### ```Road to Research```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Join us on our groundbreaking journey at Team Wangan as we advance fire detection and prevention through cutting-edge technology. Our web-based mini-project software, **currently supporting image analysis**, represents a vital step in our ongoing research. 
 
-### Analyzing the Bundle Size
+While it holds tremendous potential, our ultimate goal is to **leverage live video footage** for even more robust fire recognition capabilities.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### ```Join and Support Us!```
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+At Team Wangan, we are constantly pushing the boundaries of fire detection research. With a vision to harness live video footage in our app, we strive to unlock even greater potential in real-time fire recognition. **Be a part of our journey as we shape the future of fire safety.**
