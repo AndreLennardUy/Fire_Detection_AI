@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Team Wangan Fire and Smoke Detection Mini-Project with Machine Learning
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
