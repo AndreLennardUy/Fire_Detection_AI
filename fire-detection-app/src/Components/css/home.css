@@ -1,0 +1,142 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.section1-header,
+.section2-header,
+.section3-header {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section1-container,
+.section4-container {
+    display: flex;
+    height: 55vh;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.section1-right {
+    flex: 40%;
+}
+
+.section1-left {
+    flex: 60%;
+}
+
+.section1-left h2 {
+    font-size: 35px;
+}
+
+.section1-left p,
+.section2-right p,
+.section3-left p,
+.section4-footer p {
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section1-right img {
+    margin-top: 20px;
+    height: 80%;
+    width: 100%;
+    align-content: center;
+}
+
+.section2-container,
+.section3-container {
+    margin-top: 30px;
+    display: flex;
+    height: 50vh;
+}
+
+.section2-left,
+.section3-right,
+.section4-left {
+    flex: 48%;
+}
+
+.section2-left img,
+.section3-right img,
+.section4-left img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+.section2-right,
+.section3-left,
+.section4-right {
+    flex: 48%;
+    margin-top: 8vh;
+}
+
+.spacer {
+    flex: 2%;
+}
+
+.section2-right p {
+    margin-bottom: 50px;
+}
+
+.section3-header {
+    margin-top: 40px;
+}
+
+.section4-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section4-right h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-top: -55px;
+}
+
+.custom-list {
+    margin-top: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.custom-list li {
+    font-size: 18px;
+    flex-basis: calc(50% - 30px);
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-list li::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/arrow.png');
+    background-size: contain;
+}
+  
+.section4-footer p {
+    text-align: center;
+}
