@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 80px;
+  height: auto;
+  margin-right: 50px;
+}
+
+.navbar-link-about {
+  margin-right: 10px;
+  font-size: 30px;
+  color: #333;
+  text-decoration: none;  
+  font-weight: bold;
+  justify-content: left;
+  padding-right: 20px;
+  border-right: 1px solid black;
+}
+
+.navbar-link-fire {
+  margin-right: 10px;
+  font-size: 30px;
+  color: #333;
+  text-decoration: none;  
+  font-weight: bold;
+  justify-content: left;
+  padding-right: 20px;
+}
+
+.navbar-link-about:hover,
+.navbar-link-fire:hover {
+  color: #ff0000;
+}
