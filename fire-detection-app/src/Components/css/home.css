@@ -14,6 +14,8 @@ b{
 .section1-header,
 .section2-header,
 .section3-header,
+.section4-header,
+.section5-header,
 .section6-header,
 .section7-header {
     margin: 0 auto;
@@ -31,7 +33,7 @@ b{
     display: flex;
     height: 55vh;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 10vh;
 }
 
 .section1-right {
@@ -73,7 +75,7 @@ b{
 .section2-left,
 .section3-right,
 .section4-left,
-.section6-right {
+.section5-right {
     flex: 48%;
 }
 
@@ -99,8 +101,9 @@ b{
     margin-bottom: 50px;
 }
 
-.section3-header {
-    margin-top: 40px;
+.section3-header,
+.section4-header{
+    margin-top: 10vh;
 }
 
 .section4-right {
@@ -143,7 +146,7 @@ b{
     background-size: contain;
 }
 
-.section6-header{
+.section5-header{
     margin: 0 auto;
     margin-bottom: 30px;
     display: flex;
@@ -155,13 +158,13 @@ b{
     margin-top: 50px;
 }
 
-.section6-container{
+.section5-container{
     margin-top: 30px;
     display: flex;
     height: 60vh;
 }
 
-.section6-container p{
+.section5-container p{
     margin-top: 30px;
     text-align: justify;
     font-size: 17px;
@@ -169,28 +172,64 @@ b{
     margin-bottom: 30px;    
 }
 
-.section6-left{
+.section5-left{
     flex: 50%;
     text-align: justify;
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
 }
 
-.section6-right{
+.section5-right{
     height: 40vh;
     flex: 30%;
 }
 
-.section6-right img{
+.section5-right img{
     height: 100%;
     border-radius: 10px;
 }
+
+.section6-container {
+    display: flex;
+    height: 55vh;
+    width: 100%;
+    margin-bottom: 10vh;
+}
+
+.section6-header{
+    margin-top:5vh;
+}
+
+.section6-left{
+    flex: 45%;
+    font-family: 'Poppins', sans-serif;
+}
   
+.section6-left h2{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section6-right{
+    height: 50vh;
+    flex: 10%;
+}
+
+.section6-right img{
+    height: 90%;
+    border-radius: 2vh;
+}
+
+
 .section4-footer p,
 .section7-container p {
   text-align: center;
   font-size: 17px;
   font-family: 'Poppins', sans-serif;
+}
+
+.section7-header{
+    margin-top:8vh;
 }
 
 .section7-container {

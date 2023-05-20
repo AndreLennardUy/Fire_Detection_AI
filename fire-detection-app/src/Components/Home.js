@@ -5,6 +5,7 @@ import overview from './images/overview.jpg';
 import resnet from './images/resnet50.gif';
 import statement from './images/statement.gif';
 import systems from './images/systems.gif';
+import landscape from './images/landscape.gif';    
 import teamwangan from './images/teamwangan.png';
 
 const Home = () => {
@@ -74,7 +75,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <h1 className='section3-header'>The Power of the Convolutional Neural Network</h1>
+            <h1 className='section4-header'>The Power of the Convolutional Neural Network</h1>
             <div className='section4-container'>
                 <div className='section4-left'>
                     <img src={statement} alt='statement'/>
@@ -106,9 +107,9 @@ const Home = () => {
                 </p>
             </div>
 
-            <h1 className='section6-header'>What is this ideal for?</h1>
-            <div className='section6-container'>
-                <div className='section6-left'>
+            <h1 className='section5-header'>What is this ideal for?</h1>
+            <div className='section5-container'>
+                <div className='section5-left'>
                     <p>
                     This app is ideal for <b>gardens, cemeteries, warehouses, outdoor areas, plantations, 
                     forest areas</b>, and similar properties.
@@ -126,8 +127,30 @@ const Home = () => {
                     </p>
                 </div>
                 <div className='spacer'></div>
-                <div className='section6-right'>
+                <div className='section5-right'>
                     <img src={systems} alt='systems'/>
+                </div>
+            </div>
+
+            <h1 className='section6-header'>What about <br/> 
+            conventional alarms and detectors?</h1>
+            <div className='section6-container'>
+                <div className='section6-left'>
+                    <h2>This mini-project aims to explore image recognition as an <b>alternative.</b></h2>
+                    <p>
+                    it is not meant to discount the ability of conventional sensors. 
+                    In a large (and open) area, multiple conventional detectors need to 
+                    be spread out throughout the place.
+                    </p>
+                    <p>
+                    Light (and therefore, video footage) travels faster than hot air and smoke. 
+                    Cameras (depending on the quality) can cover a wider area <b>with less devices</b>, 
+                    and they can detect fire and smoke <b>from a longer distance.</b>
+                    </p>
+                </div>
+                <div className='spacer'></div>
+                <div className='section6-right'>
+                    <img src={landscape} alt='landscape'></img>
                 </div>
             </div>
             
