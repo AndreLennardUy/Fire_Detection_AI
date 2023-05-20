@@ -4,6 +4,8 @@ import image from './images/FireApp_Image.jpg';
 import overview from './images/overview.jpg';
 import resnet from './images/resnet50.gif';
 import statement from './images/statement.gif';
+import systems from './images/systems.gif';
+import teamwangan from './images/teamwangan.png';
 
 const Home = () => {
     return (
@@ -101,6 +103,54 @@ const Home = () => {
                  including image classification, object detection, and segmentation. Its architecture,
                   based on residual blocks and skip connections, makes it easier to train deeper networks 
                   without encountering the vanishing gradient problem or degradation in accuracy.
+                </p>
+            </div>
+
+            <h1 className='section6-header'>What is this ideal for?</h1>
+            <div className='section6-container'>
+                <div className='section6-left'>
+                    <p>
+                    This app is ideal for <b>gardens, cemeteries, warehouses, outdoor areas, plantations, 
+                    forest areas</b>, and similar properties.
+                    </p>
+                    <p>
+                    Fire sensors have to detect a certain amount of temperature to be triggered. 
+                    They are also limited by battery capacity.
+                    </p>
+                    <p>
+                    This means that cameras can detect fire and smoke faster than sensors can detect hot air and smoke,
+                     making them <b>ideal</b> for the properties and places above.
+                    </p>
+                    <p>
+                    Every second counts. The detection time difference may only be in seconds, but quick responses matters.
+                    </p>
+                </div>
+                <div className='spacer'></div>
+                <div className='section6-right'>
+                    <img src={systems} alt='systems'/>
+                </div>
+            </div>
+            
+            <h1 className='section7-header'>Join and Support Us!</h1>
+            <div className='section7-container'>
+                <p>
+                Join us on our groundbreaking journey at Team Wangan as we advance fire detection 
+                and prevention through cutting-edge technology. Our web-based mini-project software, 
+                currently supporting image analysis, represents a vital step in our ongoing research.
+                </p>
+                <p>
+                While it holds tremendous potential, our ultimate goal is to leverage live video footage 
+                for even more robust fire recognition capabilities.
+                </p>
+                <img src={teamwangan} alt='teamwangan'/>
+                <p>
+                We are <b>Team Wangan</b>, and we are constantly pushing the boundaries of fire detection research. 
+                </p>
+                <p>
+                With a vision to harness live video footage in our app, 
+                we strive to unlock even greater potential in real-time fire recognition. 
+                <br></br>
+                <b> Be a part of our journey </b>as we shape the future of fire safety!
                 </p>
             </div>
         </div>
