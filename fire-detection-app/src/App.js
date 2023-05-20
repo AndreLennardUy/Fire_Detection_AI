@@ -2,7 +2,7 @@ import { Route , Routes } from 'react-router-dom';
 import Home from './Components/Home';
 import { Navbar } from './Components/Navbar';
 import './index.css';
-import FireDetection from './Components/FireDetection';
+import FireDetection from './Components/Fire-Detection';
 import axios from 'axios';
 import {  useEffect, useState } from 'react';
 
@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     console.log(imgPath)
-    axios.post('https://localhost:64438/predict?imagePath=C%3A%5CUsers%5CAndre%20Uy%5COneDrive%20-%20Cebu%20Institute%20of%20Technology%20University%5C3rdYr2ndSem%5CIntel%20System%5CFire_Detection_AI%5Cdataset%5CFire-Detection%5CFire%20Photo%5C' + imgPath)
+    axios.post('https://localhost:64438/predict?imagePath=C%3A%5CUsers%5CAndre%20Uy%5COneDrive%20-%20Cebu%20Institute%20of%20Technology%20University%5C3rdYr2ndSem%5CIntel%20System%5CFire_Detection_AI%5CTesting_Dataset%5C' + imgPath)
       .then(res => {
         setDetails(res.data);
         console.log("Working");
