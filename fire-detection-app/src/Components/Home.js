@@ -25,7 +25,7 @@ const Home = () => {
                     commercial property, and public safety with quick and reliable alerts in case of fire.</b>
                     </p>
                     <p>
-                    Our machine-learning algorithms are constantly trained with data analyzed and gathered
+                    Our machine-learning algorithms are <b>constantly trained</b> with data analyzed and gathered
                     from different sources and datasets to provide the most consistent and accurate fire 
                     recognition and detection.
                     </p>
@@ -43,7 +43,7 @@ const Home = () => {
             <div className='spacer'></div>
                 <div className='section2-right'>
                     <p>
-                        Detection of fire and smoke in CCTV systems 
+                        Early detection of fire in CCTV systems 
                         can significantly decrease the response time to such tragedies, 
                         saving many lives and properties.
                     </p>
@@ -60,7 +60,7 @@ const Home = () => {
                 <div className='section3-left'>
                     <p>
                         Machine learning is an integral part of the backend systems and algorithmic 
-                        processes of this mini-project. Here, the model being used here is ResNet-50.
+                        processes of this mini-project. Here, the model being used here is <b>ResNet-50</b>.
                     </p>
                     <p>
                         This is a classic neural network used as a backbone for many computer vision tasks.
@@ -119,7 +119,7 @@ const Home = () => {
                     They are also limited by battery capacity.
                     </p>
                     <p>
-                    This means that cameras can detect fire and smoke faster than sensors can detect hot air and smoke,
+                    This means that cameras can detect fire faster than sensors can detect hot air,
                      making them <b>ideal</b> for the properties and places above.
                     </p>
                     <p>
@@ -143,9 +143,9 @@ const Home = () => {
                     be spread out throughout the place.
                     </p>
                     <p>
-                    Light (and therefore, video footage) travels faster than hot air and smoke. 
+                    Light (and therefore, video footage) travels faster than hot air. 
                     Cameras (depending on the quality) can cover a wider area <b>with less devices</b>, 
-                    and they can detect fire and smoke <b>from a longer distance.</b>
+                    and they can detect fire <b>from a longer distance.</b>
                     </p>
                 </div>
                 <div className='spacer'></div>
@@ -162,8 +162,8 @@ const Home = () => {
                 currently supporting image analysis, represents a vital step in our ongoing research.
                 </p>
                 <p>
-                While it holds tremendous potential, our ultimate goal is to leverage live video footage 
-                for even more robust fire recognition capabilities.
+                While it holds tremendous potential, our ultimate goal is to <b>leverage live video footage,</b>  
+                as well as <b>smoke detection,</b> for even more robust fire recognition capabilities.
                 </p>
                 <img src={teamwangan} alt='teamwangan'/>
                 <p>
