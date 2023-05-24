@@ -11,28 +11,21 @@
   margin-right: 50px;
 }
 
-.navbar-link-about {
+.navbar-link {
   margin-right: 10px;
   font-size: 30px;
   color: #333;
-  text-decoration: none;  
+  text-decoration: none;
   font-weight: bold;
   justify-content: left;
   padding-right: 20px;
   border-right: 1px solid black;
 }
 
-.navbar-link-fire {
-  margin-right: 10px;
-  font-size: 30px;
-  color: #333;
-  text-decoration: none;  
-  font-weight: bold;
-  justify-content: left;
-  padding-right: 20px;
+.navbar-link.active {
+  color: #ff0000;
 }
 
-.navbar-link-about:hover,
-.navbar-link-fire:hover {
+.navbar-link:hover {
   color: #ff0000;
 }

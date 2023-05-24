@@ -6,10 +6,18 @@
     margin-top: 30px;
 }
 
+b{
+    color: #D3756B;
+}
+
 
 .section1-header,
 .section2-header,
-.section3-header {
+.section3-header,
+.section4-header,
+.section5-header,
+.section6-header,
+.section7-header {
     margin: 0 auto;
     margin-bottom: 30px;
     display: flex;
@@ -25,7 +33,7 @@
     display: flex;
     height: 55vh;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 10vh;
 }
 
 .section1-right {
@@ -43,7 +51,7 @@
 .section1-left p,
 .section2-right p,
 .section3-left p,
-.section4-footer p {
+.section4-footer p{
     margin-top: 30px;
     text-align: justify;
     font-size: 17px;
@@ -66,7 +74,8 @@
 
 .section2-left,
 .section3-right,
-.section4-left {
+.section4-left,
+.section5-right {
     flex: 48%;
 }
 
@@ -76,7 +85,6 @@
     width: 100%;
     height: 100%;
     border-radius: 10px;
-
 }
 .section2-right,
 .section3-left,
@@ -93,8 +101,9 @@
     margin-bottom: 50px;
 }
 
-.section3-header {
-    margin-top: 40px;
+.section3-header,
+.section4-header{
+    margin-top: 10vh;
 }
 
 .section4-right {
@@ -136,7 +145,103 @@
     background-image: url('../images/arrow.png');
     background-size: contain;
 }
-  
-.section4-footer p {
+
+.section5-header{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+}
+
+.section5-container{
+    margin-top: 30px;
+    display: flex;
+    height: 60vh;
+}
+
+.section5-container p{
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;    
+}
+
+.section5-left{
+    flex: 50%;
+    text-align: justify;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section5-right{
+    height: 40vh;
+    flex: 30%;
+}
+
+.section5-right img{
+    height: 100%;
+    border-radius: 10px;
+}
+
+.section6-container {
+    display: flex;
+    height: 55vh;
+    width: 100%;
+    margin-bottom: 10vh;
+}
+
+.section6-header{
+    margin-top:5vh;
+}
+
+.section6-left{
+    flex: 45%;
+    font-family: 'Poppins', sans-serif;
+}
+  
+.section6-left h2{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section6-right{
+    height: 50vh;
+    flex: 10%;
+}
+
+.section6-right img{
+    height: 90%;
+    border-radius: 2vh;
+}
+
+
+.section4-footer p,
+.section7-container p {
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.section7-header{
+    margin-top:8vh;
+}
+
+.section7-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section7-container img {
+  width: 75%;
+  height: auto;
+  max-height: 100%; /* Limit the image height to 80% of the parent container */
+  object-fit: contain; /* Maintain the aspect ratio and fit the image inside the container */
 }
